@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 20vh;
+  background-image: url("../../public/header-image.png");
+  background-position: center;
+}
+
+.main {
+  display: flex;
+}
+
+.left-block {
+  height: 60vh;
+  width: 25%;
+  background-color: #5a94f9;
+}
+
+.right-block {
+  height: 60vh;
+  width: 75%;
+  background-image: url("../../public/right-block-image.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.footer {
+  background-color: #f1f900;
+  height: 20vh;
+}

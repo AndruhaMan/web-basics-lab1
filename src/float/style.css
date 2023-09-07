@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.header {
+  height: 20vh;
+  background-image: url("../../public/header-image.png");
+  background-position: center;
+}
+
+.left-block {
+  float: left;
+  height: 60vh;
+  width: 25%;
+  background-color: #5a94f9;
+}
+
+.right-block {
+  float: right;
+  height: 60vh;
+  width: 75%;
+  background-image: url("../../public/right-block-image.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.footer {
+  background-color: #f1f900;
+  height: 20vh;
+  clear:both;
+}

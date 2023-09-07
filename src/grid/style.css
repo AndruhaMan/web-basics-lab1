@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.header {
+  height: 20vh;
+  background-image: url("../../public/header-image.png");
+  background-position: center;
+  grid-column: span 4;
+  grid-row: span 1;
+}
+
+.left-block {
+  height: 60vh;
+  background-color: #5a94f9;
+  grid-column: span 1;
+  grid-row: span 3;
+}
+
+.right-block {
+  height: 60vh;
+  background-image: url("../../public/right-block-image.jpg");
+  background-position: center;
+  background-size: cover;
+  grid-column: span 3;
+  grid-row: span 3;
+}
+
+.footer {
+  background-color: #f1f900;
+  grid-column: span 4;
+  grid-row: span 1;
+}
